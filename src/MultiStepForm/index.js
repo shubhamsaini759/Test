@@ -12,9 +12,9 @@ const Multstep = () => {
   const next = () => {
     setCurrent(current + 1);
   };
-  const prev = () => {
-    setCurrent(current - 1);
-  };
+  //   const prev = () => {
+  //     setCurrent(current - 1);
+  //   };
 
   const steps = [
     {
@@ -49,7 +49,7 @@ const Multstep = () => {
     <div style={{ padding: "5rem" }}>
       <Steps current={current} items={items} />
       <div style={contentStyle}>{steps[current].content}</div>
-      <div
+      {/* <div
         style={{
           marginTop: 24,
         }}
@@ -77,7 +77,7 @@ const Multstep = () => {
             Previous
           </Button>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

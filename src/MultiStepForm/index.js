@@ -1,7 +1,7 @@
 import React from "react";
 import PersonalDetail from "../Components/PersonalDetail";
 
-import { Button, message, Steps, theme } from "antd";
+import { Steps, theme } from "antd";
 import { useState } from "react";
 import Shipping from "../Components/Shipping";
 import Payment from "../Components/Payment";
